@@ -16,7 +16,7 @@ def get_letter_counts(contents):
         else:
             dic[l] = 0
     
-    return dic.sort(key=)
+    return dic.sort(key='')
 
 def main():
     with open('books/frankenstein.txt') as f:
